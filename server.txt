@@ -1,1 +1,0 @@
-shadowsocks = 34.92.95.78:23002, method=chacha20-ietf-poly1305, password=cks123lcy, fast-open=false, udp-relay=false, tag=HK
