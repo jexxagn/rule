@@ -1,1 +1,0 @@
-window.location.href="http://api.turinglabs.net/api/v1/jd/bean/create/互助码/"; 
