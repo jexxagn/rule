@@ -7,7 +7,7 @@ DOMAIN,kuaikanyyin.com,REJECT
 #DOMAIN,yuuii.aoxfr66.cn,REJECT
 DOMAIN,rp.hpplay.cn,REJECT
 #DOMAIN,ws7.egbgedu.com,REJECT
-DOMAIN,image.jiankangkuaile99.com,REJECT
+#DOMAIN,image.jiankangkuaile99.com,REJECT
 DOMAIN,www.download.windowsupdate.com,REJECT
 
 
