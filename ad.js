@@ -1,10 +1,10 @@
 QX:
-https:\/\/.*\..*\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://raw.githubusercontent.com/photonmang/quantumultX/master/xxys.js
+https:\/\/.*\..*\.com\/(app\/php\/api\/ad|ucp/index|getGlobalData) url script-response-body https://gitee.com/jexxagn/quan-x/raw/master/ad.js
 
-MITM = *.xxjjappss.com,*.huaerdadi.com
+MITM = bghrt.fzsystem.cn
 */
 
-const ad = 'ssp-svr/ssp/list3';
+const ad = 'app/php/pai/ad';
 const adold = 'getGlobalData';
 let obj = JSON.parse($response.body);
 
