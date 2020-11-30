@@ -7,5 +7,5 @@ DOMAIN,*.jpush.cn,REJECT
 DOMAIN,yuuii.aoxfr66.cn,REJECT
 DOMAIN,kuaikanyyin.com,REJECT
 DOMAIN,sdkauth.hpplay.cn,REJECT
-DOMAIN,*.hpplay.cn,REJECT
+
 
