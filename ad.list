@@ -7,7 +7,7 @@ DOMAIN,*.jpush.cn,REJECT
 DOMAIN,kuaikanyyin.com,REJECT
 #DOMAIN,yuuii.aoxfr66.cn,REJECT
 DOMAIN,*.hpplay.cn,REJECT
-
+DOMAIN,ws7.egbgedu.com,REJECT
 
 
 
