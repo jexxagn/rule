@@ -1,1 +1,7 @@
-6IqC54K5MSA9IGh0dHAsMTA2LjUyLjEyNy43MiwxOTk1MQroioLngrkyID0gaHR0cCwzbXVzaWMucG9ldHlpbi5tZSwxMDAK6IqC54K5MyA9IGh0dHAsYmxvY2s0bXVzaWMucG9ldHlpbi5tZSwzOTAwMAroioLngrk0ID0gU2hhZG93c29ja3MsbXVzaWMuZGVzcGVyYWRvai5jb20sMzAwMDEsYWVzLTEyOC1nY20sImRlc3BlcmFkb2ouY29tX2ZyZWVfcHJveHlfZW14MiIK6IqC54K5NSA9IFNoYWRvd3NvY2tzLG11c2ljLmRlc3BlcmFkb2ouY29tLDMwMDAzLGFlcy0xMjgtZ2NtLCJkZXNwZXJhZG9qLmNvbV9mcmVlX3Byb3h5X2VteDIiCuiKgueCuTYgPSBodHRwLHRhcm9uLnRvcCwyMDAK6IqC54K5NyA9IGh0dHAsbXVzaWMubG9saWNvLm1lLDM5MDAw
+节点1 = http,106.52.127.72,19951
+节点2 = http,3music.poetyin.me,100
+节点3 = http,block4music.poetyin.me,39000
+节点4 = Shadowsocks,music.desperadoj.com,30001,aes-128-gcm,"desperadoj.com_free_proxy_emx2"
+节点5 = Shadowsocks,music.desperadoj.com,30003,aes-128-gcm,"desperadoj.com_free_proxy_emx2"
+节点6 = http,taron.top,200
+节点7 = http,music.lolico.me,39000
