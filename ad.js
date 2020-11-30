@@ -1,7 +1,7 @@
 QX:
-https:\/\/.*\..*\.com\/(app\/php\/api\/ad|ucp/index|getGlobalData) url script-response-body https://gitee.com/jexxagn/quan-x/raw/master/ad.js
+http:\/\/.*\..*\.cn\/(app\/php\/api\/ad|ucp/index|getGlobalData) url script-response-body https://gitee.com/jexxagn/quan-x/raw/master/ad.js
 
-MITM = bghrt.fzsystem.cn
+MITM = *.fzsystem.cn
 */
 
 const ad = 'app/php/pai/ad';
