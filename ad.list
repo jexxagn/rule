@@ -3,11 +3,11 @@ DOMAIN,f617.cc,REJECT
 DOMAIN,gugao.zxtdiv.com,REJECT
 DOMAIN,78vip.pyhxs.cn,REJECT
 DOMAIN,jpush.cn,REJECT
-DOMAIN,*.jpush.cn,REJECT
 DOMAIN,kuaikanyyin.com,REJECT
 #DOMAIN,yuuii.aoxfr66.cn,REJECT
-DOMAIN,*.hpplay.cn,REJECT
+DOMAIN,rp.hpplay.cn,REJECT
 DOMAIN,www.download.windowsupdate.com,REJECT
+
 
 
 
