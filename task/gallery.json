@@ -2,7 +2,7 @@
     "name": "QX Scripts",
     "description": "Task Gallery",
     "task": [
-    "10 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_apple_live.js, tag=苹果抽奖机, enabled=true",
+    "10 0 * * * https://raw.githubusercontent.com/xingliuchao/jd/main/jd_apple_live.js, tag=苹果抽奖机, enabled=true",
     
     "1 0 * * * https://raw.githubusercontent.com/xingliuchao/jd/main/jd_digital_floor.js, tag=京东数码加购京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true",
 
