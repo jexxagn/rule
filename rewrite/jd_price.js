@@ -28,10 +28,10 @@ if (url.indexOf(path3) !== -1) {
   }
   $.done({body: JSON.stringify(obj)});
 }
-/*
+
 if (url.indexOf(path2) !== -1) {
   if (Math.ceil(Math.random() * 4) === 1) {
-    $.get({url: "https://raw.githubusercontent.com/JDHelloWorld/jd_price/main/version.log", timeout:3000}, (err, resp, data) => {
+    $.get({url: "https://gitee.com/jexxagn/quan-x/raw/master/rewrite/jd_version.log.txt", timeout:3000}, (err, resp, data) => {
       if(!err){
         try{
           let latest = data.split('\n')[0]
@@ -52,7 +52,7 @@ if (url.indexOf(path2) !== -1) {
     showHistory()
   }
 }
-*/
+
 function showHistory() {
   let obj = JSON.parse(body);
   const floors = obj.floors;
