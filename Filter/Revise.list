@@ -4,6 +4,7 @@ DOMAIN,developer.apple.com,DIRECT
 DOMAIN,www.icloud.com,DIRECT
 DOMAIN,ocsp.apple.com,DIRECT
 DOMAIN,xp.apple.com,DIRECT
+DOMAIN,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,aaplimg.com,DIRECT
 DOMAIN-SUFFIX,apple.co,DIRECT
 DOMAIN-SUFFIX,apple.com,DIRECT
