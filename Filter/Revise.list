@@ -30,5 +30,3 @@ IP-CIDR,205.180.175.0/24,DIRECT
 #52kpop
 DOMAIN-SUFFIX,kmoonhh.com,DIRECT
 DOMAIN-SUFFIX,aitvb.com,DIRECT
-#Other
-DOMAIN,data.flurry.com,REJECT
