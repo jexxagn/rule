@@ -32,3 +32,4 @@ DOMAIN-SUFFIX,kmoonhh.com,DIRECT
 DOMAIN-SUFFIX,aitvb.com,DIRECT
 #Other
 DOMAIN-SUFFIX,data.flurry.com,REJECT
+DOMAIN-SUFFIX,www.miaorelay.com,DIRECT
