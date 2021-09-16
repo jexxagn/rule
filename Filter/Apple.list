@@ -1,6 +1,19 @@
 # NAME: Apple
+DOMAIN,books.itunes.apple.com
+DOMAIN,api-glb-sea.smoot.apple.com
+DOMAIN,beta.music.apple.com
+DOMAIN,tv.apple.com
+DOMAIN,apps.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,lookup-api.apple.com
 HOST,api.smoot.apple.cn
 HOST,apple.comscoreresearch.com
+DOMAIN,appleid.apple.com
+DOMAIN,developer.apple.com
+DOMAIN,www.icloud.com
+DOMAIN,ocsp.apple.com
+DOMAIN,xp.apple.com
 HOST-SUFFIX,aaplimg.com
 HOST-SUFFIX,akadns.net
 HOST-SUFFIX,apple-cloudkit.com
