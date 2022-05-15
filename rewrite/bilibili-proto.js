@@ -15,27 +15,27 @@ let body;
 const biliRoot = protobuf.Root.fromJSON(biliJson);
 let needProcessFlag = false;
 if(url.indexOf("Dynamic/DynAll") !== -1 && method === postMethod){
-    console.log('动态DynAll');
+    //console.log('动态DynAll');
     const dynAllReplyType = biliRoot.lookupType("bilibili.app.dynamic.DynAllReply");
     let dynAllReplyMessage = dynAllReplyType.decode(unGzipBody);
     if(!dynAllReplyMessage.hasOwnProperty('topicList') || dynAllReplyMessage.topicList === null){
-        console.log('topicList为空');
+        //console.log('topicList为空');
     } else {
         needProcessFlag = true;
         dynAllReplyMessage.topicList = null;
-        console.log('推荐话题topicList去除');
+        //console.log('推荐话题topicList去除');
     }
 
     if(!dynAllReplyMessage.hasOwnProperty('upList') || dynAllReplyMessage.upList === null){
-        console.log('upList为空');
+        //console.log('upList为空');
     } else {
         needProcessFlag = true;
         dynAllReplyMessage.upList = null;
-        console.log('最常访问upList去除');
+        //console.log('最常访问upList去除');
     }
 
     if(!dynAllReplyMessage.dynamicList.hasOwnProperty('list') || dynAllReplyMessage.dynamicList.list === null || dynAllReplyMessage.dynamicList.list.length === 0){
-        console.log('动态列表list为空');
+        //console.log('动态列表list为空');
     } else {
         let adCount = 0;
         dynAllReplyMessage.dynamicList.list = dynAllReplyMessage.dynamicList.list.filter(item => {
@@ -48,17 +48,17 @@ if(url.indexOf("Dynamic/DynAll") !== -1 && method === postMethod){
         if(adCount !== 0){
             needProcessFlag = true;
         }
-        console.log(`动态列表广告数量:${adCount}`);
+        //console.log(`动态列表广告数量:${adCount}`);
     }
     if(needProcessFlag){
         body = processNewBody(dynAllReplyType.encode(dynAllReplyMessage).finish());
     }
 } else if(url.indexOf("View/View") !== -1 && method === postMethod){
-    console.log('视频播放页View/View');
+    //console.log('视频播放页View/View');
     const viewReplyType = biliRoot.lookupType("bilibili.app.view.ViewReply");
     let viewReplyMessage = viewReplyType.decode(unGzipBody);
     if(!viewReplyMessage.hasOwnProperty('cms') || viewReplyMessage.cms === null || viewReplyMessage.cms.length === 0){
-        console.log('cms为空');
+        //console.log('cms为空');
     } else {
         let adCount = 0;
         const sourceContentDtoType = biliRoot.lookupType("bilibili.ad.v1.SourceContentDto");
@@ -73,14 +73,14 @@ if(url.indexOf("Dynamic/DynAll") !== -1 && method === postMethod){
             }
         }
         viewReplyMessage.cms = [];
-        console.log(`up主推荐广告:${adCount}`);
+        //console.log(`up主推荐广告:${adCount}`);
         if(adCount !== 0){
             needProcessFlag = true;
         }
     }
 
     if(!viewReplyMessage.hasOwnProperty('relates') || viewReplyMessage.relates === null || viewReplyMessage.relates.length === 0){
-        console.log('relates相关推荐为空');
+        //console.log('relates相关推荐为空');
     } else {
         let adCount = 0;
         viewReplyMessage.relates = viewReplyMessage.relates.filter(item => {
@@ -90,7 +90,7 @@ if(url.indexOf("Dynamic/DynAll") !== -1 && method === postMethod){
             }
             return true;
         });
-        console.log(`相关推荐广告:${adCount}`);
+        //console.log(`相关推荐广告:${adCount}`);
         if(adCount !== 0){
             needProcessFlag = true;
         }
@@ -100,7 +100,7 @@ if(url.indexOf("Dynamic/DynAll") !== -1 && method === postMethod){
     for (const i in tIconMap) {
         if(tIconMap[i] === null){
             // 解决tIcon的null is not an object问题
-            console.log(`tIconMap:${i}`);
+            //console.log(`tIconMap:${i}`);
             delete tIconMap[i];
         }
     }
@@ -112,7 +112,7 @@ if(url.indexOf("Dynamic/DynAll") !== -1 && method === postMethod){
 }
 
 if(needProcessFlag){
-    console.log(`${body.byteLength}---${body.buffer.byteLength}`);
+    //console.log(`${body.byteLength}---${body.buffer.byteLength}`);
     if(isQuanX){
         $done({bodyBytes: body.buffer.slice(body.byteOffset, body.byteLength + body.byteOffset)});
     } else {
