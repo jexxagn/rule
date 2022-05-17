@@ -1,0 +1,5 @@
+#补充分流
+HOST, data.flurry.com, reject
+
+#大师兄影视去广告
+IP-CIDR, 47.99.219.178/32, reject
