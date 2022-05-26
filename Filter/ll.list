@@ -8,6 +8,3 @@ IP-CIDR, 47.99.219.178/32, reject
 host-suffix, atrace.chelaile.net.cn, reject
 host, logs.chelaile.net.cn, reject
 host, ad.chelaile.net.cn, reject
-
-#CDN
-host, cdn.jsdelivr.net, proxy
