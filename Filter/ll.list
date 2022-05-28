@@ -8,3 +8,8 @@ IP-CIDR, 47.99.219.178/32, reject
 host-suffix, atrace.chelaile.net.cn, reject
 host, logs.chelaile.net.cn, reject
 host, ad.chelaile.net.cn, reject
+
+# 贴吧屏蔽域名dns查询
+IP-CIDR,180.76.76.200/32,REJECT
+# 贴吧屏蔽ws(副作用:消息通知功能失效,需手动进入查看),强制帖子接口走http
+HOST,im.tieba.baidu.com,REJECT
