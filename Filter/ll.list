@@ -26,22 +26,6 @@ IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,REJECT
 # > 搜狗输入法
 host-keyword, business-cdn.shouji.sogou.com, reject
 
-# > 高德
-HOST-SUFFIX,adiu.amap.com,REJECT
-HOST,aboard.apilocate.amap.com,REJECT
-HOST,apiinit.amap.com,REJECT
-HOST,icloud-amap.com,REJECT
-HOST,logs.amap.com,REJECT
-HOST-SUFFIX,dualstack-logs.amap.com,REJECT
-HOST-SUFFIX,logs.amap.com,REJECT
-HOST-SUFFIX,optimus-ads.amap.com,REJECT
-HOST-SUFFIX,page.amap.com,REJECT
-HOST,optimus-ads.amap.com, reject
-HOST,optimus-ads.amap.com.w.alikunlun.com, reject
-HOST-SUFFIX, shouji.sougou.com, reject
-HOST, u51.me, reject
-HOST-SUFFIX, u51.me, reject
-
 # > 微博
 HOST-KEYWORD,fastimage.uve.weibo.com, reject
 HOST-KEYWORD,adimg.uve.weibo.com, reject
@@ -95,12 +79,6 @@ HOST-KEYWORD,ad.weibo.com,REJECT
 HOST-KEYWORD,adstrategy.biz.weibo.com,REJECT
 HOST-KEYWORD,s.weibo.com,REJECT
 HOST-KEYWORD,vs.biz.weibo.com,REJECT
-
-# >小红书
-HOST,ads-img-qc.xhscdn.com, reject
-HOST,ads-video-al.xhscdn.com, reject
-HOST,ads-video-qc.xhscdn.com, reject
-HOST,t-ads.xiaohongshu.com, reject
 
 # > 哔哩哔哩
 HOST-SUFFIX,cm.bilibili.com, reject
