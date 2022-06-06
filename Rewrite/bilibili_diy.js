@@ -1,11 +1,11 @@
 /*
-應用名稱：自用B站去广告脚本
-腳本作者：Cuttlefish
-微信賬號：公眾號墨魚手記
-更新時間：2022-05-14
-腳本版本：(63)
-通知頻道：https://t.me/ddgksf2021
-問題反饋：ddgksf2013@163.com
+应用名称：自用B站去广告脚本
+脚本作者：Cuttlefish
+微信账号：公众号墨鱼手记
+更新时间：2022-06-04
+脚本版本：(65)
+通知频道：https://t.me/ddgksf2021
+问题反馈：ddgksf2013@163.com
 */
 const scriptName = "BiliBili";
 const storyAidKey = "bilibili_story_aid";
@@ -65,9 +65,16 @@ if (magicJS.read(blackKey)) {
       case /^https:\/\/app\.bilibili\.com\/x\/v2\/feed\/index\/story\?/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
-          let lastItem = obj["data"]["items"].pop();
-          let aid = lastItem["stat"]["aid"].toString();
-          magicJS.write(storyAidKey, aid);
+          let items = [];
+          for (let item of obj["data"]["items"]) {
+            if (
+              !item.hasOwnProperty("ad_info") &&
+              item.card_goto.indexOf("ad") === -1) {
+              items.push(item);
+            }
+          }
+          obj["data"]["items"] = items;
+          body = JSON.stringify(obj);
         } catch (err) {
           magicJS.logError(`记录Story的aid出现异常：${err}`);
         }
@@ -205,7 +212,7 @@ if (magicJS.read(blackKey)) {
         case /https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
-          //magicJS.logInfo(`公众号墨鱼手记`);
+          magicJS.logInfo(`公众号墨鱼手记`);
           obj["data"]["vip"]["type"] = 2;
           obj["data"]["vip"]["status"] = 1;
           obj["data"]["vip"]["vip_pay_type"] = 1;
@@ -216,7 +223,7 @@ if (magicJS.read(blackKey)) {
         }
         break;
       // 追番去广告
-      case /^https?:\/\/api\.bilibili\.com\/pgc\/page\/bangumi/.test(magicJS.request.url):
+      case /pgc\/page\/bangumi/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
           obj.result.modules.forEach((module) => {
@@ -238,7 +245,7 @@ if (magicJS.read(blackKey)) {
         }
         break;
         // 观影页去广告
-      case /https?:\/\/api\.bilibili\.com\/pgc\/page\/cinema\/tab\?/.test(magicJS.request.url):
+      case /pgc\/page\/cinema\/tab\?/.test(magicJS.request.url):
         try {
           let obj = JSON.parse(magicJS.response.body);
           obj.result.modules.forEach((module) => {
