@@ -105,7 +105,7 @@ if (magicJS.read(blackKey)) {
             let top = obj["data"]["top"].filter((e) => {
               if (e.id === 222 || e.id === 107) {
                 e.uri = `bilibili://story/${storyAid}`;
-                e.icon = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/bilibili/bilibili_icon.png";
+                e.icon = "https://jexxagn.netlify.app/Rewrite/bilibili_icon.png";
                 e.tab_id = "Story_Top";
                 e.name = "Story";
               }
