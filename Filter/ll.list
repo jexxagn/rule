@@ -1,2 +1,5 @@
 #大师兄影视去广告
 IP-CIDR, 47.99.219.178/32, reject
+# > HDOBOX去广告
+host-suffix, applovin.com, reject
+host-suffix, applvn.com, reject
