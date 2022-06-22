@@ -1,4 +1,4 @@
-#geo_location_checker=http://api.bilibili.com/x/web-interface/zone,https://jexxagn.netlify.app/IP_bili_cn.js
+//geo_location_checker=http://api.bilibili.com/x/web-interface/zone,https://jexxagn.netlify.app/IP_bili_cn.js
 if ($response.statusCode != 200) {
   $done(null);
 }
