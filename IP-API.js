@@ -51,7 +51,7 @@ title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
 }
 var oisp = obj['isp'];
 var subtitle;
-if(oisp.length>17){
+if(oisp.length>18){
 subtitle = '🏖 '+ obj['isp'];
 }
 else{
