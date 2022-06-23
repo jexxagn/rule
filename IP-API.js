@@ -48,6 +48,6 @@ var zone= obj['timezone'];
 let index = zone .lastIndexOf("/");
 var zone =zone .substring(index+1,zone.length);
 var title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
-var subtitle = '🏖 '+ zone1 + ' ➠ ' + obj['query'];
+var subtitle = '🏖 '+ zone + ' ➠ ' + obj['query'];
 var description = '-----------------------------------'+'\n'+'服务商:'+obj['isp'] + '\n\n'+'国家/地区:' +Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city'])+ '\n\n' + 'IP:'+ obj['query'] + '\n\n' +'经度:'+ obj['lon'] + '  ' + '维度:' + obj['lat'] +  '\n\n' +'时区:'+ obj['timezone'];
 $done({title, subtitle, ip, description});
