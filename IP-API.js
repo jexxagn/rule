@@ -46,12 +46,13 @@ var obj = JSON.parse(body);
 var ip = obj['query'];
 var title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
 var oisp = obj['isp'];
-var subtitle = oisp;
+var nisp = oisp;
+var subtitle = osubtitle;
 if(oisp.length>14){
-oisp = '🏖 '+ obj['isp'];
+osubtitle = '🏖 '+ obj['isp'];
 }
 else{
-oisp = '🏖 '+ obj['isp'] + ' ➠ ' + obj['query'];
+osubtitle = '🏖 '+ obj['isp'] + ' ➠ ' + obj['query'];
 }
 var description = '-----------------------------------'+ '\n\n' + '服务商:'+ obj['isp'] + '\n\n' + '国家/地区:' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']) + '\n\n' + 'IP:'+ obj['query'] + '\n\n' + '经度:' + obj['lon'] + '  ' + '维度:' + obj['lat'] +  '\n\n' + '时区:' + obj['timezone'];
 $done({title, subtitle, ip, description});
