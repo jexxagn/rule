@@ -44,10 +44,16 @@ var flags = new Map([["AC","🇦🇨"],["AD","🇦🇩"],["AE","🇦🇪"],["AF"
 var body = $response.body;
 var obj = JSON.parse(body);
 var ip = obj['query'];
-var zone= obj['timezone'];
-let index = zone .lastIndexOf("/");
-var zone =zone .substring(index+1,zone.length);
+//var zone= obj['timezone'];
+//let index = zone .lastIndexOf("/");
+//var zone =zone .substring(index+1,zone.length);
+var zone= obj['isp'];
+var ozone = zone;//要展示的字符串
+if(zone.length>10){
+ozone=zone.substring(0,14)+"...";
+}
 var title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
-var subtitle = '🏖 '+ zone + ' ➠ ' + obj['query'];
+//var subtitle = '🏖 '+ zone + ' ➠ ' + obj['query'];
+var subtitle = '🏖 '+ obj['query'] + ' ➠ ' + ozone;
 var description = '-----------------------------------'+'\n'+'服务商:'+obj['isp'] + '\n\n'+'国家/地区:' +Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city'])+ '\n\n' + 'IP:'+ obj['query'] + '\n\n' +'经度:'+ obj['lon'] + '  ' + '维度:' + obj['lat'] +  '\n\n' +'时区:'+ obj['timezone'];
 $done({title, subtitle, ip, description});
