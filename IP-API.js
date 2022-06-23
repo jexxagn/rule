@@ -45,13 +45,12 @@ var body = $response.body;
 var obj = JSON.parse(body);
 var ip = obj['query'];
 var title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
-var subtitle = osubtitle;
 var oisp = obj['isp'];
 if(oisp.length>14){
-osubtitle = '🏖 '+ obj['isp'];
+var subtitle = '🏖 '+ obj['isp']
 }
 else{
-osubtitle = '🏖 '+ obj['isp'] + ' ➠ ' + obj['query'];
+var subtitle = '🏖 '+ obj['isp'] + ' ➠ ' + obj['query']
 }
 var description = '-----------------------------------'+ '\n\n' + '服务商:'+ obj['isp'] + '\n\n' + '国家/地区:' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']) + '\n\n' + 'IP:'+ obj['query'] + '\n\n' + '经度:' + obj['lon'] + '  ' + '维度:' + obj['lat'] +  '\n\n' + '时区:' + obj['timezone'];
 $done({title, subtitle, ip, description});
