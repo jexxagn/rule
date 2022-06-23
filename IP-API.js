@@ -47,7 +47,7 @@ var ip = obj['query'];
 var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
 var title= otitle;
 if(otitle.length>22){
-title = flags.get(obj['countryCode']);
+title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
 }
 var oisp = obj['isp'];
 var subtitle;
