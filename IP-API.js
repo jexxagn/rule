@@ -50,7 +50,7 @@ var ip = obj['query'];
 var zone= obj['isp'];
 var ozone = zone;//要展示的字符串
 if(zone.length>10){
-ozone=zone.substring(0,18)+"...";
+ozone=zone.substring(0,14)+"...";
 }
 var title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
 //var subtitle = '🏖 '+ zone + ' ➠ ' + obj['query'];
