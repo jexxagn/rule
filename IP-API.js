@@ -51,7 +51,7 @@ title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
 }
 var osubtitle =  obj['isp'] + ' ➠ ' + obj['query'];
 var subtitle =  '🏖 '+ obj['isp'] + ' ➠ ' + obj['query'];
-if(osubtitle.length>36){
+if(osubtitle.length>34){
     subtitle = '🏖 '+ obj['isp'];
 }
 var description = '-----------------------------------'+ '\n\n' + '服务商:'+ obj['isp'] + '\n\n' + '国家/地区:' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']) + '\n\n' + 'IP:'+ obj['query'] + '\n\n' + '经度:' + obj['lon'] + '  ' + '维度:' + obj['lat'] +  '\n\n' + '时区:' + obj['timezone'];
