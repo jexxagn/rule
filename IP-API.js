@@ -48,11 +48,17 @@ var ocountry = Area_check(obj['country']);
 var oregionName = ' ' + City_ValidCheck(obj['regionName']);
 var ocity = ' ' + City_ValidCheck(obj['city']);
 var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + oregionName + ocity;
-if(ocountry == ocity)||(oregionName == ocity){
+if(ocity == ocountry){
     ocity='';
+    else if(oregionName==ocountry){
+        oregionName='';
+    }
 }
-if(ocountry == oregionName){
-    oregionName='';
+if(ocity == oregionName){
+    ocity='';
+    else if(oregionName==ocountry){
+        oregionName='';
+    }
 }
 var title= otitle;
 if(otitle.length>23){
