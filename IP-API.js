@@ -45,18 +45,18 @@ var body = $response.body;
 var obj = JSON.parse(body);
 var ip = obj['query'];
 var ocountry = Area_check(obj['country']);
-var oregionName = ' ' + City_ValidCheck(obj['regionName']);
-var ocity = ' ' + City_ValidCheck(obj['city']);
-var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + oregionName + ocity;
+var oregionName = City_ValidCheck(obj['regionName']);
+var ocity = City_ValidCheck(obj['city']);
+var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + oregionName + ' ' + ocity;
 if(ocity == ocountry){
     ocity='';
-    else if(oregionName==ocountry){
+    else if(oregionName == ocountry){
         oregionName='';
     }
 }
 if(ocity == oregionName){
     ocity='';
-    else if(oregionName==ocountry){
+    else if(oregionName == ocountry){
         oregionName='';
     }
 }
