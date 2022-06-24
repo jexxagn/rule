@@ -47,10 +47,7 @@ var ip = obj['query'];
 var ocountry = Area_check(obj['country']);
 var oregionName = City_ValidCheck(obj['regionName']);
 var ocity = ' ' + City_ValidCheck(obj['city']);
-if(ocity==ocountry){
-    ocity='';
-}
-if(ocity==oregionName){
+if{(ocountry || oregionName) == ocity}{
     ocity='';
 }
 var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ocity;
