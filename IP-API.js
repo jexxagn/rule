@@ -51,7 +51,7 @@ if(ocity==ocountry){
 }
 var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + ocity;
 var title= otitle;
-if(otitle.length>20){
+if(otitle.length>23){
 title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
 }
 var osubtitle =  obj['isp'] + ' ➠ ' + obj['query'];
