@@ -47,22 +47,22 @@ var ip = obj['query'];
 var ocountry = Area_check(obj['country']);
 var oregionName = City_ValidCheck(obj['regionName']);
 var ocity = City_ValidCheck(obj['city']);
-var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + oregionName + ' ' + ocity;
-if(ocity == ocountry){
-    ocity='';
-    else if(oregionName == ocountry){
-        oregionName='';
-    }
-}
-if(ocity == oregionName){
-    ocity='';
-    else if(oregionName == ocountry){
-        oregionName='';
-    }
-}
+var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
 var title= otitle;
-if(otitle.length>23){
-title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
+if(otitle.length>22){
+	if(ocountry!=oregionName){
+	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']);	
+	}else{
+		title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
+	}
+}else if(oregionName == ocity){
+	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']);
+}else if(ocountry == ocity){
+	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']);
+}else if(ocountry == oregionName){
+	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
+}else if(ocountry == oregionName == ocity){
+	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
 }
 var osubtitle =  obj['isp'] + ' ➠ ' + obj['query'];
 var subtitle =  '🏖 '+ obj['isp'] + ' ➠ ' + obj['query'];
