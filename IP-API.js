@@ -44,7 +44,12 @@ var flags = new Map([["AC","🇦🇨"],["AD","🇦🇩"],["AE","🇦🇪"],["AF"
 var body = $response.body;
 var obj = JSON.parse(body);
 var ip = obj['query'];
-var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
+var ocity = City_ValidCheck(obj['city']);
+var ocountry = Area_check(obj['country']);
+if(ocity==ocountry){
+    ocity="";
+}
+var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + ocity;
 var title= otitle;
 if(otitle.length>20){
 title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
