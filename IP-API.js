@@ -48,26 +48,30 @@ var ocountry = Area_check(obj['country']);
 var oregionName = City_ValidCheck(obj['regionName']);
 var ocity = City_ValidCheck(obj['city']);
 var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
-var title= otitle;
+var title = otitle;
+var crtitle= flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']);
 if(otitle.length>22){
-	if(ocountry!=oregionName){
+	if(crtitle.length>22){
+		title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
+	}
+	else if(ocountry!=oregionName){
 	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']);	
 	}else{
 		title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
 	}
-}else if(oregionName == ocity){
+    }else if(oregionName == ocity){
 	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']);
-}else if(ocountry == ocity){
+    }else if(ocountry == ocity){
 	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']);
-}else if(ocountry == oregionName){
+    }else if(ocountry == oregionName){
 	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
-}else if(ocountry == oregionName == ocity){
+    }else if(ocountry == oregionName == ocity){
 	title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
-}
+    }
 var osubtitle =  obj['isp'] + ' ➠ ' + obj['query'];
 var subtitle =  '🏖 '+ obj['isp'] + ' ➠ ' + obj['query'];
 if(osubtitle.length>32){
     subtitle = '🏖 '+ obj['isp'];
 }
-var description = '-----------------------------------'+ '\n\n' + '服务商:'+ obj['isp'] + '\n\n' + '国家/地区:' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']) + '\n\n' + 'IP:'+ obj['query'] + '\n\n' + '经度:' + obj['lon'] + '  ' + '维度:' + obj['lat'] +  '\n\n' + '时区:' + obj['timezone'];
+var description = '-----------------------------------'+ '\n\n' + '国家/地区:' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']) + '\n\n' + 'IP:'+ obj['query'] + '\n\n' + '服务商:'+ obj['isp'] + '\n\n' + '经度:' + obj['lon'] + '  ' + '维度:' + obj['lat'] +  '\n\n' + '时区:' + obj['timezone'];
 $done({title, subtitle, ip, description});
