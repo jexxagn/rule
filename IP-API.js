@@ -50,8 +50,8 @@ var ocity = City_ValidCheck(obj['city']);
 var otitle = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']) + ' ' + City_ValidCheck(obj['city']);
 var title = otitle;
 var crtitle= flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']) + ' ' + City_ValidCheck(obj['regionName']);
-if(otitle.length>22){
-	if(crtitle.length>22){
+if(otitle.length>21){
+	if(crtitle.length>21){
 		title = flags.get(obj['countryCode']) + ' ' + Area_check(obj['country']);
 	}
 	else if(ocountry!=oregionName){
