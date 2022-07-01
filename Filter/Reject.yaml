@@ -1,0 +1,8 @@
+payload:
+  #大师兄影视去广告
+  - IP-CIDR, 47.99.219.178/32
+  # > HDOBOX去广告
+  - DOMAIN-SUFFIX, applovin.com
+  - DOMAIN-SUFFIX, applvn.com
+  #联盟广告
+  - DOMAIN-SUFFIX,mi.gdt.qq.com
