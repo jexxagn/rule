@@ -1,4 +1,4 @@
 #小小影视会员
-https:\/\/.*\.(xiaoxiaoapps|xiaoxiaoimg)\.com\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://jexxagn.netlify.app/Rewrite/xxys.js
+https:\/\/.*\.*\.*\/(ssp-svr\/ssp\/list3|ucp/index|getGlobalData) url script-response-body https://jexxagn.netlify.app/Rewrite/xxys.js
 
 hostname= *.5iqzj.com, *.hnhx360.com, *.judeleshiye.com, *.gqbyh.com, *.daqindou.com, *.gzkaxing.com, *.bdyuteng.com, *.syzcny.com, *.ksxlsn.com, *.hzsmhw.com, *.91nhnh.com, *.sdjhfengji.com, *.myxxdq.com, *wangbiwu.com, *.bdyuteng.com
