@@ -1,0 +1,4 @@
+# > 美图秀秀VIP(2022.01.17)
+^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://jexxagn.netlify.app/Rewrite/MeiTuXiuXiu.js
+
+hostname= api.xiuxiu.meitu.com, h5.xiuxiu.meitu.com
