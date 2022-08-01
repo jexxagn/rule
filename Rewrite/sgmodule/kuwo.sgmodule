@@ -1,7 +1,7 @@
 # ～ KWYY_酷我音乐_AdBlock@DivineEngine
 ^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ url reject
 # ～ KWYY_酷我音乐_AdBlock@DivineEngine
-#^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ url reject
+^https?:\/\/.+\.kwcdn\.kuwo\.cn\/star\/upload\/.+ url reject
 # ～ KWYY_酷我音乐_AdBlock@DivineEngine
 ^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/Ad url reject
 
