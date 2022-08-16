@@ -1,13 +1,3 @@
-# ～ KWYY_酷我音乐_AdBlock@DivineEngine
-#^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/.+ url reject
-# ～ KWYY_酷我音乐_AdBlock@DivineEngine
-#^https?:\/\/mobilead\.kuwo\.cn\/EcomResourceServer\/Ad url reject
-
-# ～ KWYY_酷我听书_Blockad@ddgksf2013
-#https?:\/\/audiobookpay\.kuwo\.cn/a\.p\?op=get_advertright url reject-dict
-# ～ KWYY_酷我听书_Blockad@ddgksf2013
-#https?:\/\/omp-audiobookpay\.lrts\.me\/a\.p\?op=get_advertright url reject-dict
-
 # 完美解锁酷我音乐
 ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).* url script-response-body https://jexxagn.netlify.app/Rewrite/kw.js
 
