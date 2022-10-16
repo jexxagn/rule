@@ -1,6 +1,11 @@
+# ======= 视频广告 ======= #
 (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) url 302 $1$2$3
 ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad url reject
 
+# ======= 首页广告 ======= #
+^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/browse\? url script-response-body https://fastly.jsdelivr.net/gh/app2smile/rules@master/js/youtube.js
+
+# ======= 通用请求 ======= #
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v\d\/player\/ad_break url reject
 ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads url reject
 ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) url reject
