@@ -99,7 +99,7 @@ function isVideo(o) {
       const knownRegex = new RegExp("cell_divider|home_video|related_video|search_video|compact_video");
       if (adRegex.test(type)) flag = false;
       // 用于排查遗留的广告类型
-      if (flag && !knownRegex.test(type)) //console.log(type);
+      if (flag && !knownRegex.test(type)) console.log(type);
     }
   }
   if (!flag) needProcessFlag = true;
