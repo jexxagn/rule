@@ -16,7 +16,7 @@ if ($request.method !== "POST") {
 }
 
 if (url.includes("/v1/browse")) {
-  console.log("browse");
+  //console.log("browse");
   let browseMessage = browseRes.fromBinary(binaryBody, { readUnknownField: true });
   mapItems(browseMessage.n1F10?.n2F49399797?.n3F1);
   mapItems(browseMessage.n1F9?.m2F58173949?.m3F1?.m4F58174010?.n1F10?.n2F49399797?.n3F1);
@@ -24,7 +24,7 @@ if (url.includes("/v1/browse")) {
     body = browseRes.toBinary(browseMessage);
   }
 } else if (url.includes("/v1/next")) {
-  console.log("next");
+  //console.log("next");
   let nextMessage = nextRes.fromBinary(binaryBody, { readUnknownField: true });
   mapItems(nextMessage.a1F7?.a2F51779735?.a3F1?.n2F49399797?.n3F1);
   mapItems(nextMessage.a1F8?.n2F49399797?.n3F1);
@@ -32,7 +32,7 @@ if (url.includes("/v1/browse")) {
     body = nextRes.toBinary(nextMessage);
   }
 } else if (url.includes("/v1/player")) {
-  console.log("player");
+  //console.log("player");
   let playerMessage = playerRes.fromBinary(binaryBody, { readUnknownField: true });
   const l = playerMessage.b1F7?.length;
   if (l) {
@@ -41,7 +41,7 @@ if (url.includes("/v1/browse")) {
     body = playerRes.toBinary(playerMessage);
   }
 } else if (url.includes("/v1/search")) {
-  console.log("search");
+  //console.log("search");
   let searchMessage = searchRes.fromBinary(binaryBody, { readUnknownField: true });
   mapItems(searchMessage.s1F4?.n2F49399797?.n3F1);
   mapItems(searchMessage.s1F7?.n2F49399797?.n3F1)
@@ -50,7 +50,7 @@ if (url.includes("/v1/browse")) {
     body = searchRes.toBinary(searchMessage);
   }
 } else if (url.includes("/v1/reel/reel_watch_sequence")) {
-  console.log("shorts");
+  //console.log("shorts");
   let shortsMessage = shortsRes.fromBinary(binaryBody, { readUnknownField: true });
   let shortsRawLength = shortsMessage.t1F2?.length;
   if (shortsMessage.t1F2) {
@@ -65,14 +65,14 @@ if (url.includes("/v1/browse")) {
 }
 
 if (needProcessFlag) {
-  console.log("已处理");
+  //console.log("已处理");
   if (isQuanX) {
     $done({ bodyBytes: body.buffer.slice(body.byteOffset, body.byteLength + body.byteOffset) });
   } else {
     $done({ body });
   }
 } else {
-  console.log("无需处理");
+  //console.log("无需处理");
   $done({});
 }
 
