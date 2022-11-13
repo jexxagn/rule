@@ -1,0 +1,6 @@
+[rewrite_local]
+# unlock tophub
+^https?:\/\/api2\.tophub\.app\/account\/sync\?.* url script-response-body https://jexxagn.netlify.app/Rewrite/tophub.js
+
+[mitm]
+hostname = api2.tophub.app
