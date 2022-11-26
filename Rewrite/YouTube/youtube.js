@@ -72,14 +72,14 @@ if (url.includes("/v1/browse")) {
 }
 
 if (needProcessFlag) {
-  console.log("已处理");
+  //console.log("已处理");
   if (isQuanX) {
     $done({ bodyBytes: body.buffer.slice(body.byteOffset, body.byteLength + body.byteOffset) });
   } else {
     $done({ body });
   }
 } else {
-  console.log("无需处理");
+  //console.log("无需处理");
   $done({});
 }
 
@@ -110,7 +110,7 @@ function isVideo(o) {
     adFlag = /_ads?\.|ads?_|video_display_full|image|shorts|shelf_header|cell_divider/.test(type);
     // 用于排查遗留的广告类型
     if (!/cell_divider|video_with|comment_thread|post_base/.test(type))
-      console.log(`${type}--${adFlag}`);
+      //console.log(`${type}--${adFlag}`);
   }
   if (adFlag) needProcessFlag = true;
   return !adFlag;
