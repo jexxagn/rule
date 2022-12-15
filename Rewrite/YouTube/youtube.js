@@ -16,7 +16,7 @@ if ($request.method !== "POST") {
 }
 
 if (url.includes("/v1/browse")) {
-  console.log("browse");
+  //console.log("browse");
   let browseMessage = browseRes.fromBinary(binaryBody);
   mapItems(browseMessage.n1F10?.n2F49399797?.n3F1);
   mapItems(browseMessage.n1F9?.m2F58173949?.m3F1?.m4F58174010?.n1F10?.n2F49399797?.n3F1);
@@ -24,7 +24,7 @@ if (url.includes("/v1/browse")) {
     body = browseRes.toBinary(browseMessage);
   }
 } else if (url.includes("/v1/next")) {
-  console.log("next");
+  //console.log("next");
   let nextMessage = nextRes.fromBinary(binaryBody);
   mapItems(nextMessage.a1F7?.a2F51779735?.a3F1?.n2F49399797?.n3F1);
   mapItems(nextMessage.a1F8?.n2F49399797?.n3F1);
@@ -32,7 +32,7 @@ if (url.includes("/v1/browse")) {
     body = nextRes.toBinary(nextMessage);
   }
 } else if (url.includes("/v1/player")) {
-  console.log("player");
+  //console.log("player");
   let playerMessage = playerRes.fromBinary(binaryBody);
   if (playerMessage.b1F7?.length) {
     playerMessage.b1F7 = [];
@@ -40,7 +40,7 @@ if (url.includes("/v1/browse")) {
     body = playerRes.toBinary(playerMessage);
   }
 } else if (url.includes("/v1/search")) {
-  console.log("search");
+  //console.log("search");
   let searchMessage = searchRes.fromBinary(binaryBody);
   mapItems(searchMessage.s1F4?.n2F49399797?.n3F1);
   mapItems(searchMessage.s1F7?.n2F49399797?.n3F1);
@@ -49,7 +49,7 @@ if (url.includes("/v1/browse")) {
     body = searchRes.toBinary(searchMessage);
   }
 } else if (url.includes("/v1/reel/reel_watch_sequence")) {
-  console.log("shorts");
+  //console.log("shorts");
   let shortsMessage = shortsRes.fromBinary(binaryBody);
   let shortsRawLength = shortsMessage.t1F2?.length;
   if (shortsMessage.t1F2) {
@@ -60,7 +60,7 @@ if (url.includes("/v1/browse")) {
     }
   }
 } else if (url.includes("/v1/guide")) {
-  console.log("guide");
+  //console.log("guide");
   let guideMessage = guideRes.fromBinary(binaryBody);
   mapItems(guideMessage.g1F4, true);
   mapItems(guideMessage.g1F6, true);
@@ -110,7 +110,7 @@ function isVideo(o) {
     adFlag = /_ads?\.|ads?_|video_display_full|image|shorts|shelf_header|cell_divider/.test(type);
     // 用于排查遗留的广告类型
     if (!/cell_divider|video_with|comment_thread|post_base/.test(type))
-      console.log(`${type}--${adFlag}`);
+      //console.log(`${type}--${adFlag}`);
   }
   if (adFlag) needProcessFlag = true;
   return !adFlag;
