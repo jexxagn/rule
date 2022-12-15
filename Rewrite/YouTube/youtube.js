@@ -110,7 +110,7 @@ function isVideo(o) {
     adFlag = /_ads?\.|ads?_|video_display_full|image|shorts|shelf_header|cell_divider/.test(type);
     // 用于排查遗留的广告类型
     if (!/cell_divider|video_with|comment_thread|post_base/.test(type))
-      //console.log(`${type}--${adFlag}`);
+      console.log(`${type}--${adFlag}`);
   }
   if (adFlag) needProcessFlag = true;
   return !adFlag;
