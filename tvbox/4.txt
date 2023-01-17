@@ -1,0 +1,52 @@
+{
+    "urls": [
+           {
+            "url":"http://aduo.eu.org/duo/v.json",
+            "name": " 🐞请点击选择下方线路"
+        },
+          {
+            "url":"https://yydsys.top/duo/v.json",
+            "name": "应用多多家庭版"
+         },
+          {
+            "url":"https://yydsys.top/duo/v.json",
+            "name": "待添加"
+        },
+          {
+            "url":"https://yydsys.top/duo/v.json",
+            "name": "待添加"
+        }, 
+          {
+            "url":"https://yydsys.top/duo/v.json",
+            "name": "待添加"
+        }, 
+          {
+            "url":"https://yydsys.top/duo/v.json",
+            "name": "待添加"
+        }, 
+          {
+            "url":"https://yydsys.top/duo/v.json",
+            "name": "待添加"
+        },
+          {
+            "url":"https://yydsys.top/duo/v.json",
+            "name": "待添加"
+        },
+          {
+            "url":"https://yydsys.top/duo/v.json",
+            "name": "待添加"
+        },
+          {
+            "url":"https://yydsys.top/duo/v.json",
+            "name": "待添加"
+        },
+          {
+            "url":"http://aduo.eu.org/duo/m.json",
+            "name": "待添加"
+        },
+          {
+            "url":"https://yydsys.top/duo/m.json",
+            "name": "待添加"
+        }
+      ]  
+}
