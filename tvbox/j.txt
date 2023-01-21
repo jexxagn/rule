@@ -11,7 +11,6 @@
         {
             "url": "https://yydsys.top/duo/v.json",
             "name": "应用多多"
-        },
-
+        }
     ]
 }
