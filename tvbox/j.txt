@@ -1,0 +1,17 @@
+{
+    "urls": [
+        {
+            "url": "https://jexxagn.netlify.app/tvbox/j.json",
+            "name": "官源线路"
+        }, 
+        {
+            "url": "http://肥猫.love",
+            "name": "肥猫线路"
+        },  
+        {
+            "url": "https://yydsys.top/duo/v.json",
+            "name": "应用多多"
+        },
+
+    ]
+}
