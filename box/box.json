@@ -124,7 +124,7 @@
         {
           "name": "live",
           "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHMlM0EvL2pleHhhZ24ubmV0bGlmeS5hcHAvdHYudHh0"
+            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9qZXh4YWduLm5ldGxpZnkuYXBwL3R2LnR4dA=="
           ]
         }
       ]
@@ -148,7 +148,7 @@
     },
     {
 	  "name":"全民",
-	  "type":0,
+	  "type":1,
 	  "url":"http://jiexi44.qmbo.cn/jiexi/?url="
 	} 
   ],
