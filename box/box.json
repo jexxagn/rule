@@ -11,11 +11,12 @@
     }
   ],
   "sites": [
-     {
-      "key": "T4_douban",
+    {
+      "key": "js豆瓣",
       "name": "豆瓣热榜",
-      "type": 4,
-      "api": "https://t4.饭太硬.ml/vod",
+      "type": 3,
+      "api": "http://id.ganggang.live:63/js/drpy.min.js",
+      "ext": "http://id.ganggang.live:63/js/js_drpy.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -139,11 +140,6 @@
   ],
   "parses": [
     {
-      "name": "解析聚合",
-      "type": 3,
-      "url": "Demo"
-    },
-    {
       "name": "Json并发",
       "type": 2,
       "url": "Parallel"
@@ -152,6 +148,11 @@
       "name": "Json轮询",
       "type": 2,
       "url": "Sequence"
+    },
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Demo"
     },
     {
        "name": "星辰云1",
@@ -164,21 +165,24 @@
     {
        "name": "星辰云2",
        "type": 1,
-       "url": "https://json.xn--9kq078cdn3a.cc/api/?key=76839abbeffa3cf558c1718c67a94d88&url=",
+       "url": "https://json.xn--9kq078cdn3a.cc/api/?key=9f22d9f901e71ae348311fff9ec47db9&url=",
        "header": {
                  "User-Agent": "Mozilla/5.0"
                  }
      },
+        	{
+	  "name": "星辰云3",
+	  "type": 1,
+	  "url": "https://json.xn--9kq078cdn3a.cc/api/?key=fc477ca1c3a2d2151cb8baca8a3e8c50&url=",
+       "header": {
+                 "User-Agent": "Mozilla/5.0"
+                 }
+    },
     {
 	  "name":"江湖",
 	  "type":1,
 	  "url":"http://rxjx.kuanjv.com/allm3u8.php?url="
 	},		
-   	{
-	  "name": "星辰云3",
-	  "type": 1,
-	  "url": "https://json.xn--9kq078cdn3a.cc/api/?key=fc477ca1c3a2d2151cb8baca8a3e8c50&url="
-    },
     {
       "name": "CK",
       "type": 1,
