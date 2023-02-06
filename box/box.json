@@ -221,6 +221,11 @@
        "name": "JP",
        "type": 1,
        "url": "https://jx.777jiexi.com/player/?url="
+    },
+    {
+       "name": "9R",
+       "type": 1,
+       "url": "http://app.9rai.com/bygjx/?url="
     }
     ]
 }
