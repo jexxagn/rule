@@ -154,14 +154,14 @@
       "url": "Sequence"
     },
     {
-	  "name":"全民",
-	  "type":0,
-	  "url":"http://jiexi44.qmbo.cn/jiexi/?url="
+	  "name":"江湖",
+	  "type":1,
+	  "url":"http://rxjx.kuanjv.com/allm3u8.php?url="
 	},		
    	{
-	  "name": "CK",
-	  "type": 0,
-	  "url": "http://www.ckplayer.vip/jiexi/?url="
-	}
+	  "name": "星辰云",
+	  "type": 1,
+	  "url": "https://json.xn--9kq078cdn3a.cc/api/?key=fc477ca1c3a2d2151cb8baca8a3e8c50&url="
+     }
   ]
 }
