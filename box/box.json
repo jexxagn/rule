@@ -199,22 +199,22 @@
     },
     {
        "name": "JY",
-       "type": 1,
+       "type": 0,
        "url": "https://jx.playerjy.com/?url="
     },
     {
       "name": "爱酷",
-      "type": 1,
+      "type": 0,
       "url": "https://k.json.icu/home/api?type=ys&uid=6399107&key=bdlmrswBDHIKZ01238&url="
     },
     {
        "name": "爱豆",
-       "type": 1,
+       "type": 0,
        "url": "https://jx.aidouer.net/?url="
     },
     {
        "name": "777",
-       "type": 1,
+       "type": 0,
        "url": "https://jx.777jiexi.com/player/?url="
     },
     {
