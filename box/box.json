@@ -154,7 +154,7 @@
       "url": "Sequence"
     },
     {
-       "name": "星辰云解析①",
+       "name": "星辰云1",
        "type": 1,
        "url": "http://jiexi.xn--9kq078cdn3a.cc/api/?key=GMp1H9mKRKVriBulRT&url=",
        "header": {
@@ -162,7 +162,7 @@
                  }
     },
     {
-       "name": "星辰云解析②",
+       "name": "星辰云2",
        "type": 1,
        "url": "https://json.xn--9kq078cdn3a.cc/api/?key=76839abbeffa3cf558c1718c67a94d88&url=",
        "header": {
@@ -175,7 +175,7 @@
 	  "url":"http://rxjx.kuanjv.com/allm3u8.php?url="
 	},		
    	{
-	  "name": "星辰云",
+	  "name": "星辰云3",
 	  "type": 1,
 	  "url": "https://json.xn--9kq078cdn3a.cc/api/?key=fc477ca1c3a2d2151cb8baca8a3e8c50&url="
     },
