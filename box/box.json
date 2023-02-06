@@ -162,6 +162,25 @@
 	  "name": "星辰云",
 	  "type": 1,
 	  "url": "https://json.xn--9kq078cdn3a.cc/api/?key=fc477ca1c3a2d2151cb8baca8a3e8c50&url="
-     }
-  ]
+    },
+    {
+      "name": "7鍙风嚎",
+      "type": 1,
+      "url": "http://lanlan.ckflv.cn/?url=",
+      "ext": {
+            "flag": [
+                   "qiyi",
+                   "qq",
+                   "letv",
+                   "sohu",
+                   "youku",
+                   "mgtv",
+                   "bilibili",
+                   "wasu",
+                   "xigua",
+                   "1905"
+                    ]
+              }
+    }
+    ]
 }
