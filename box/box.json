@@ -216,6 +216,11 @@
        "name": "爱豆",
        "type": 1,
        "url": "https://jx.aidouer.net/?url="
+    },
+    {
+       "name": "JP",
+       "type": 1,
+       "url": "https://jx.777jiexi.com/player/?url="
     }
     ]
 }
