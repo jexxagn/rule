@@ -177,12 +177,7 @@
        "header": {
                  "User-Agent": "Mozilla/5.0"
                  }
-    },
-    {
-	  "name":"江湖",
-	  "type":1,
-	  "url":"http://rxjx.kuanjv.com/allm3u8.php?url="
-	},		
+    },		
     {
       "name": "CK",
       "type": 1,
