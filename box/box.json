@@ -135,13 +135,6 @@
             "filterable": 1
         },
         {
-            "key": "Alist1",
-            "name": "Alis网盘",
-            "type": 3,
-            "api": "https://jexxagn.netlify.app/box/js/alist.min.js",
-            "ext": "https://jexxagn.netlify.app/box/json/alist.json"
-        },
-        {
             "key": "Alist2",
             "name": "Alis搜索",
             "type": 3,
