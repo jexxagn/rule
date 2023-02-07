@@ -171,21 +171,13 @@
     {
        "name": "星辰云1",
        "type": 1,
-       "url": "http://jiexi.xn--9kq078cdn3a.cc/api/?key=GMp1H9mKRKVriBulRT&url=",
-       "header": {
-                 "User-Agent": "Mozilla/5.0"
-                 }
-    },
-    {
-       "name": "星辰云2",
-       "type": 1,
        "url": "https://json.xn--9kq078cdn3a.cc/api/?key=d3f73a7d6d366b864e522d60aa0703f1&url=",
        "header": {
                  "User-Agent": "Mozilla/5.0"
                  }
      },
         	{
-	  "name": "星辰云3",
+	  "name": "星辰云2",
 	  "type": 1,
 	  "url": "https://json.xn--9kq078cdn3a.cc/api/?key=d76b3ae3bc80b35d5ef6f4e378eedcc2&url=",
        "header": {
