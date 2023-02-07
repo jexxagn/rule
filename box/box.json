@@ -180,7 +180,7 @@
 	  "name": "星辰云2",
 	  "type": 1,
 	  "url": "https://json.xn--9kq078cdn3a.cc/api/?key=d76b3ae3bc80b35d5ef6f4e378eedcc2&url=",
-       "header": {
+      "header": {
                  "User-Agent": "Mozilla/5.0"
                  }
     },		
@@ -201,18 +201,26 @@
                    "xigua",
                    "1905"
                     ]
-              }
+              },
+      "header": {
+                   "User-Agent": "Mozilla/5.0"
+                }
     },
     {
        "name": "9R",
        "type": 1,
-       "url": "http://app.9rai.com/bygjx/?url="
+       "url": "http://app.9rai.com/bygjx/?url=",
+       "header": {
+                  "User-Agent": "Mozilla/5.0"
+                 }
     },
      {
       "name": "蓝城",
       "type": 1,
-      "url": "http://lan.ccabc.cc/jx.php?url="
-    }
+      "url": "http://lan.ccabc.cc/jx.php?url=",
+      "header": {
+                 "User-Agent": "Mozilla/5.0"
+                }
     ],
     "ijk": [
         {
