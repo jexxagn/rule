@@ -50,6 +50,22 @@
             "filterable": 1
         },
         {
+            "key": "xcys",
+            "name": "星辰影视",
+            "type": 1,
+            "api": "http://tv.cpkey.cn/api.php/provide/vod",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "fl": "520520",  
+            "categories": [
+                            "电影",
+                            "电视剧",
+                            "综艺",
+                            "动漫"
+                          ]
+        },
+        {
             "key": "csp_app_源头",
             "name": "肥猫影院",
             "type": 1,
