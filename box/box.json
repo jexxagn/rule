@@ -192,6 +192,14 @@
                 }
     },
     {
+       "name": "爱豆",
+       "type": 0,
+       "url": "https://jx.aidouer.net/?url=",
+       "header": {
+                  "User-Agent": "Mozilla/5.0"
+                  }
+    },
+    {
        "name": "9R",
        "type": 1,
        "url": "http://app.9rai.com/bygjx/?url=",
