@@ -175,14 +175,14 @@
       "url": "http://lan.ccabc.cc/jx.php?url="
     },
     {
-       "name": "盘古云",
-       "type": 1,
-       "url": "https://vip.cnjsjf.com/ujson_30.php?url="
-    },
-    {
        "name": "9R",
        "type": 1,
        "url": "http://app.9rai.com/bygjx/?url="
+    },
+    {
+       "name": "盘古云",
+       "type": 1,
+       "url": "https://vip.cnjsjf.com/ujson_30.php?url="
     },
     {
        "name": "星辰云1",
