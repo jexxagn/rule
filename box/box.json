@@ -1,15 +1,4 @@
 {
-  "spider": "https://jexxagn.netlify.app/box/jar/box.jar;md5;EE39D6223759E1B9683EFD45D15F9134",
-  "wallpaper": "https://jexxagn.netlify.app/box/bg.jpg",
-  "lives": [
-    {
-      "name": "直播",
-      "type": 0,
-      "url": "https://jexxagn.netlify.app/tv.txt",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-  ],
   "sites": [
         {
             "key": "js豆瓣",
@@ -178,34 +167,22 @@
                    "xigua",
                    "1905"
                     ]
-              },
-      "header": {
-                   "User-Agent": "Mozilla/5.0"
-                }
+              }
     },
     {
       "name": "蓝城",
       "type": 1,
-      "url": "http://lan.ccabc.cc/jx.php?url=",
-      "header": {
-                 "User-Agent": "Mozilla/5.0"
-                }
+      "url": "http://lan.ccabc.cc/jx.php?url="
     },
     {
        "name": "爱豆",
        "type": 0,
-       "url": "https://jx.aidouer.net/?url=",
-       "header": {
-                  "User-Agent": "Mozilla/5.0"
-                  }
+       "url": "https://jx.aidouer.net/?url="
     },
     {
        "name": "9R",
        "type": 1,
-       "url": "http://app.9rai.com/bygjx/?url=",
-       "header": {
-                  "User-Agent": "Mozilla/5.0"
-                 }
+       "url": "http://app.9rai.com/bygjx/?url="
     },
     {
        "name": "星辰云1",
@@ -231,5 +208,16 @@
                   "User-Agent": "Mozilla/5.0"
                 }
     }
-    ]
+    ],
+ "lives": [
+    {
+      "name": "直播",
+      "type": 0,
+      "url": "https://jexxagn.netlify.app/tv.txt",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    }
+     ],
+  "spider": "https://jexxagn.netlify.app/box/jar/box.jar;md5;EE39D6223759E1B9683EFD45D15F9134",
+  "wallpaper": "https://jexxagn.netlify.app/box/bg.jpg"
 }
