@@ -220,18 +220,7 @@
       "name": "蓝城",
       "type": 1,
       "url": "http://lan.ccabc.cc/jx.php?url="
-    },	
-	{
-      "name": "7Y",
-      "type": 0,
-      "url": "http://1jx.7yys.cn/?url=",
-      "header": {"User-Agent": "okhttp/4.9.1"}
-    },
-    {
-	  "name":"100",
-	  "type":0,
-	  "url":"https://byg.ziqj5.shop/?url="
-	}
+    }
     ],
     "ijk": [
         {
