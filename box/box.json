@@ -53,7 +53,7 @@
             "key": "csp_app_源头",
             "name": "肥猫影院",
             "type": 1,
-            "api": "http://i.肥猫.love:63/api.php/provide/vod",
+            "api": "http://我是.肥猫.love:63/api.php/provide/vod",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
@@ -184,6 +184,14 @@
                 }
     },
     {
+      "name": "蓝城",
+      "type": 1,
+      "url": "http://lan.ccabc.cc/jx.php?url=",
+      "header": {
+                 "User-Agent": "Mozilla/5.0"
+                }
+    },
+    {
        "name": "9R",
        "type": 1,
        "url": "http://app.9rai.com/bygjx/?url=",
@@ -213,14 +221,6 @@
       "url": "https://json.xn--9kq078cdn3a.cc/api/?key=9fa37cb4fc502852961ca88746e78653&url=",
       "header": {
                   "User-Agent": "Mozilla/5.0"
-                }
-    },
-    {
-      "name": "蓝城",
-      "type": 1,
-      "url": "http://lan.ccabc.cc/jx.php?url=",
-      "header": {
-                 "User-Agent": "Mozilla/5.0"
                 }
     }
     ]
