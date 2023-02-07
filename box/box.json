@@ -187,7 +187,7 @@
         	{
 	  "name": "星辰云3",
 	  "type": 1,
-	  "url": "https://json.xn--9kq078cdn3a.cc/api/?key=fc477ca1c3a2d2151cb8baca8a3e8c50&url=",
+	  "url": "https://json.xn--9kq078cdn3a.cc/api/?key=d76b3ae3bc80b35d5ef6f4e378eedcc2&url=",
        "header": {
                  "User-Agent": "Mozilla/5.0"
                  }
@@ -215,7 +215,23 @@
        "name": "9R",
        "type": 1,
        "url": "http://app.9rai.com/bygjx/?url="
-    }
+    },
+     {
+      "name": "蓝城",
+      "type": 1,
+      "url": "http://lan.ccabc.cc/jx.php?url="
+    },	
+	{
+      "name": "7Y",
+      "type": 0,
+      "url": "http://1jx.7yys.cn/?url=",
+      "header": {"User-Agent": "okhttp/4.9.1"}
+    },
+    {
+	  "name":"100",
+	  "type":0,
+	  "url":"https://byg.ziqj5.shop/?url="
+	}
     ],
     "ijk": [
         {
