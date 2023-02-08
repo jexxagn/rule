@@ -151,6 +151,11 @@
       "url": "Demo"
     },
     {
+      "name": "左岸",
+      "url": "http://110.42.2.115:880/analysis/json/?uid=2379&my=bilmnpuBCKNPZ02459&url=",
+      "type": 1,
+    },
+    {
       "name": "CK",
       "type": 1,
       "url": "http://lanlan.ckflv.cn/?url=",
