@@ -124,26 +124,15 @@
             "filterable": 1
         },
         {
-            "key": "csp_Paper",
-            "name": "📜┃纸条┃云盘",
-            "type": 3,
-            "api": "csp_Paper",
-            "playerType": 1,
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "http://我不是.肥猫.love:63/toｋen.php"
-        },
-        {
             "key": "csp_GitCafe",
-            "name": "📜┃纸条┃雲盘",
+            "name": "纸条云盘",
             "type": 3,
             "api": "csp_Gitcafe",
             "playerType": 1,
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://我不是.肥猫.love:63/toｋen.php"
+            "ext": "https://jexxagn.netlify.app/box/ali_token.txt"
         }
   ],
   "parses": [
