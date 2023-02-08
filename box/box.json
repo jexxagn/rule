@@ -124,14 +124,26 @@
             "filterable": 1
         },
         {
-            "key": "Alist2",
-            "name": "Alis搜索",
+            "key": "csp_Paper",
+            "name": "📜┃纸条┃云盘",
             "type": 3,
-            "api": "csp_AList",
+            "api": "csp_Paper",
+            "playerType": 1,
             "searchable": 1,
+            "quickSearch": 1,
             "filterable": 1,
-            "ext": "https://jexxagn.netlify.app/box/json/alist3.json",
-            "jar": "https://jexxagn.netlify.app/box/jar/Alist3.jar;md5;906B337D4B4BAEF13292D004E5FD8F9B"
+            "ext": "http://我不是.肥猫.love:63/toｋen.php"
+        },
+        {
+            "key": "csp_GitCafe",
+            "name": "📜┃纸条┃雲盘",
+            "type": 3,
+            "api": "csp_Gitcafe",
+            "playerType": 1,
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://我不是.肥猫.love:63/toｋen.php"
         }
   ],
   "parses": [
