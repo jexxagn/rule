@@ -151,8 +151,18 @@
       "url": "Demo"
     },
     {
-      "name": "左岸",
+      "name": "左岸1",
       "url": "http://110.42.2.115:880/analysis/json/?uid=2379&my=bilmnpuBCKNPZ02459&url=",
+      "type": 1
+    },
+    {
+      "name": "左岸2",
+      "url": "https://lan.ccabc.cc/zuoan.php?url=",
+      "type": 1
+    },
+    {
+      "name": "搬运工",
+      "url": "https://jx.ccabc.cc/API.php?appkey=5567332&url=",
       "type": 1
     },
     {
