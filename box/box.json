@@ -193,6 +193,16 @@
        "url": "http://app.9rai.com/bygjx/?url="
     },
     {
+        "name": "长老",
+        "type": 1,
+        "url": "http://jiexi.parses.repl.co/api.php?url="
+    },
+    {
+        "name": "盘古云",
+        "type": 1,
+        "url": "https://vip.cnjsjf.com/ujson_30.php?url="
+    },
+    {
         "name": "左岸",
         "type": 1,
         "url": "http://110.42.2.115:880/analysis/json/?uid=2379&my=bdmnoyBCJKMOUWY234&url="
