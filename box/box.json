@@ -193,6 +193,11 @@
        "url": "http://app.9rai.com/bygjx/?url="
     },
     {
+        "name": "云星",
+        "type": 1,
+        "url": "https://json.freejx.in/?url="
+    },
+    {
         "name": "长老",
         "type": 1,
         "url": "http://jiexi.parses.repl.co/api.php?url="
