@@ -124,9 +124,9 @@
             "filterable": 1
         },
 
-                {
+        {
             "key": "csp_Paper",
-            "name": "📜┃纸条┃云盘",
+            "name": "纸条云盘",
             "type": 3,
             "api": "csp_Paper",
             "playerType": 1,
@@ -137,7 +137,7 @@
         },
         {
             "key": "csp_GitCafe",
-            "name": "📜┃纸条┃雲盘",
+            "name": "纸条雲盘",
             "type": 3,
             "api": "csp_Gitcafe",
             "playerType": 1,
@@ -145,17 +145,6 @@
             "quickSearch": 1,
             "filterable": 1,
             "ext": "https://jexxagn.netlify.app/box/ali_token.txt"
-        },
-        {
-            "key": "Gitcafe",
-            "name": "纸条云盘",
-            "type": 3,
-            "api": "csp_Paper",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://jexxagn.netlify.app/box/ali_token.txt",
-            "jar": "https://jexxagn.netlify.app/box/jar/fongmi_spider.jar;md5;5f350e3b859432e66db59eebc3ccce78"
         }
   ],
   "parses": [
