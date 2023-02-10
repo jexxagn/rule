@@ -188,6 +188,11 @@
       "url": "http://lan.ccabc.cc/jx.php?url="
     },
     {
+        "name": "LX",
+        "type": 1,
+        "url": "https://jx.ccabc.cc/lx/?url="
+    },
+    {
        "name": "9R",
        "type": 1,
        "url": "http://app.9rai.com/bygjx/?url="
