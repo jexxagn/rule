@@ -11,16 +11,6 @@
             "filterable": 0
         },
         {
-            "key": "csp_XBPQ新视觉",
-            "name": "🌟┃视觉┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 0,
-            "ext": "https://jexxagn.netlify.app/box/json/新视觉影院.json"
-        },
-        {
             "key": "csp_BuLei",
             "name": "布雷影视",
             "type": 3,
