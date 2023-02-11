@@ -164,32 +164,34 @@
       "url": "Demo"
     },
     {
-      "name": "CK",
+        "name": "解析1",
+        "type": 0,
+        "url": "http://www.miaoys.cc/vip/?url="
+    },
+    {
+      "name": "解析2",
       "type": 1,
       "url": "http://lanlan.ckflv.cn/?url="
     },
     {
-      "name": "小城",
+      "name": "解析3",
       "type": 1,
       "url": "http://lan.ccabc.cc/jx.php?url="
     },
     {
-       "name": "9R",
+       "name": "解析4",
        "type": 1,
        "url": "http://app.9rai.com/bygjx/?url="
     },
     {
-        "name": "NEP",
+        "name": "解析5",
         "type": 1,
         "url": "http://ts.nep.ink/?url="
     },
     {
-       "name": "星辰云",
+       "name": "解析6",
        "type": 1,
-       "url": "https://json.xn--9kq078cdn3a.cc/api/?key=694138485bf1110c147f85d92e86edc3&url=",
-       "header": {
-                 "User-Agent": "Mozilla/5.0"
-                 }
+       "url": "https://json.xn--9kq078cdn3a.cc/api/?key=694138485bf1110c147f85d92e86edc3&url="
      }
     ],
  "lives": [
