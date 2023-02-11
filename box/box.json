@@ -198,6 +198,11 @@
        "url": "http://app.9rai.com/bygjx/?url="
     },
     {
+        "name": "NEP",
+        "type": 1,
+        "url": "http://ts.nep.ink/?url="
+    },
+    {
         "name": "樱花",
         "type": 1,
         "url": "http://json.feilifeili.top:5025/parsing.do?appId=zNqKTdv4TeT7xvRm&appKey=kimi11&url="
