@@ -159,27 +159,37 @@
   ],
   "parses": [
     {
-      "name": "接口1",
+        "name": "接口1",
+        "type": 0,
+        "url": "https://jx.777jiexi.com/player/?url="
+    },
+    {
+        "name": "接口2",
+        "type": 0,
+        "url": "https://jx.aidouer.net/?url="
+    },
+    {
+      "name": "接口3",
       "type": 1,
       "url": "http://lanlan.ckflv.cn/?url="
     },
     {
-      "name": "接口2",
+      "name": "接口4",
       "type": 1,
       "url": "http://lan.ccabc.cc/jx.php?url="
     },
     {
-       "name": "接口3",
+       "name": "接口5",
        "type": 1,
        "url": "http://app.9rai.com/bygjx/?url="
     },
     {
-        "name": "接口4",
+        "name": "接口6",
         "type": 1,
         "url": "http://jx.ccabc.cc?url="
     },
     {
-       "name": "接口5",
+       "name": "接口7",
        "type": 1,
        "url": "https://json.xn--9kq078cdn3a.cc/api/?key=694138485bf1110c147f85d92e86edc3&url="
      }
