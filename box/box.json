@@ -124,16 +124,6 @@
             "filterable": 1
         },
         {
-            "key": "嗯哩嗯哩",
-            "name": "🍖┃嗯哩┃影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "ext": "https://enlienli.com/vodshow/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html"
-        },
-        {
             "key": "csp_Paper",
             "name": "纸条云盘",
             "type": 3,
