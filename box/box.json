@@ -189,17 +189,22 @@
         "url": "http://jx.ccabc.cc?url="
     },
     {
-       "name": "接口7",
+        "name": "接口7",
+        "type": 1,
+        "url": "http://www.pandown.pro/app/tkys/tkysjx.php?url="
+    },
+    {
+       "name": "接口8",
        "type": 1,
        "url": "https://json.xn--9kq078cdn3a.cc/api/?key=e7096101128070c1ce09bbf3887e5279&url="
      },
      {
-        "name": "接口8",
+        "name": "接口9",
         "type": 0,
         "url": "https://jx.777jiexi.com/player/?url="
      },
      {
-        "name": "接口9",
+        "name": "接口10",
         "type": 0,
         "url": "https://jx.aidouer.net/?url="
      }
