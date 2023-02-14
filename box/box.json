@@ -160,43 +160,48 @@
   "parses": [
     {
         "name": "接口1",
-        "type": 0,
-        "url": "https://jx.777jiexi.com/player/?url="
-    },
-    {
-        "name": "接口2",
         "type": 1,
         "url": "http://jx.xdv.icu/home/api?type=ys&uid=3622468&key=bklotuDFHIKMRSTVX6&url="
     },
     {
-      "name": "接口3",
+      "name": "接口2",
       "type": 1,
       "url": "http://lanlan.ckflv.cn/?url="
     },
     {
-      "name": "接口4",
+      "name": "接口3",
       "type": 1,
       "url": "http://jx.fuqizhishi.com:63/API.php?appkey=feimao&url="
     },
     {
-      "name": "接口5",
+      "name": "接口4",
       "type": 1,
       "url": "http://lan.ccabc.cc/jx.php?url="
     },
     {
-       "name": "接口6",
+       "name": "接口5",
        "type": 1,
        "url": "http://app.9rai.com/bygjx/?url="
     },
     {
-        "name": "接口7",
+        "name": "接口6",
         "type": 1,
         "url": "http://jx.ccabc.cc?url="
     },
     {
-       "name": "接口8",
+       "name": "接口7",
        "type": 1,
        "url": "https://json.xn--9kq078cdn3a.cc/api/?key=e7096101128070c1ce09bbf3887e5279&url="
+     },
+     {
+        "name": "接口8",
+        "type": 0,
+        "url": "https://jx.777jiexi.com/player/?url="
+     },
+     {
+        "name": "接口9",
+        "type": 0,
+        "url": "https://jx.aidouer.net/?url="
      }
     ],
  "lives": [
