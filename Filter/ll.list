@@ -2,3 +2,5 @@
 host-suffix, applovin.com, reject
 host-suffix, applvn.com, reject
 host-suffix, doubleclick.net, reject
+
+host, bit.ly, proxy
