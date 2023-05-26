@@ -275,6 +275,7 @@ NewTV动作电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/
 NewTV精品体育,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225674/index.m3u8
 NewTV武搏世界,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
 NewTV家庭影院,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
+NewTVMAX极速汽车,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226583/index.m3u8
 NewTVMAX极速汽车,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226574/index.m3u8
 NewTV哒啵赛事,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226899/index.m3u8
 NewTV动作电影,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
@@ -285,10 +286,7 @@ NewTV圆点生活,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226552/
 NewTV游戏风云,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226579/index.m3u8
 NewTV全纪实,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226580/index.m3u8
 NewTV欢笑剧场,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226582/index.m3u8
-NewTVMAX急速汽车,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226583/index.m3u8
 NewTV体育赛事,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226803/index.m3u8
-NewTV快乐垂钓,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226805/index.m3u8
-NewTV茶频道,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226808/index.m3u8
 NewTV曲艺大观,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226900/index.m3u8
 NewTV弈坛春秋,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226245/index.m3u8
 NewTV综合剧场,http://gslbserv.itv.cmvideo.cn/index.m3u8?stbId=000000001000&Contentid=7681593242002292003&livemode=1&channel-id=ystenlive&test/PLTV/=01
@@ -372,6 +370,8 @@ IHOT爱院线,http://zteres.sn.chinamobile.com:6060/000000001000/600000000600003
 金鹰纪实,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226351/index.m3u8
 金鹰卡通,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225744/index.m3u8
 KAKU少儿,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221225743/index.m3u8
+快乐垂钓,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226805/index.m3u8
+茶频道,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226808/index.m3u8
 CCTV发现之旅,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226235/index.m3u8
 CCTV老故事,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226236/index.m3u8
 CCTV女性时尚,http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226237/index.m3u8
