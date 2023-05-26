@@ -1,5 +1,5 @@
 # > 美颜相机VIP(2022.01.15)
-^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json) url script-response-body https://jexxagn.netlify.app/Rewrite/MeiYanXiangJi.js
-^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json) url script-response-body https://jexxagn.netlify.app/Rewrite/MeiYanXiangJi.js
+^https?:\/\/api\.account\.meitu\.com\/(common\/check_device_login_pwd|users\/show_current\.json) url script-response-body https://raw.githubusercontent.com/jexxagn/rule/master/Rewrite/MeiYanXiangJi.js
+^https?:\/\/api\.meiyan\.com\/vip\/(user_center\.json|user_info\.json) url script-response-body https://raw.githubusercontent.com/jexxagn/rule/master/Rewrite/MeiYanXiangJi.js
 
 hostname = api.account.meitu.com, api.meiyan.com
