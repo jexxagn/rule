@@ -1,4 +1,4 @@
 # 扫描全能王 pro
-^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://jexxagn.netlify.app/Rewrite/CamScanner.js
+^https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/jexxagn/rule/master/Rewrite/CamScanner.js
 
 hostname = ap*.intsig.net
