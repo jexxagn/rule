@@ -1,4 +1,4 @@
 let obj = JSON.parse($response.body);
-obj.data.gonggao = "open":false;
-obj.data.adconfignew = {"hengfu":false,"adtime":12};
+var sub = {"gonggao":{"open": false}};
+obj.data = sub;
 $done({body: JSON.stringify(obj)});
