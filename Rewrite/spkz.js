@@ -3,7 +3,7 @@ obj = {"data":{
   {
   "gonggao": {"title": "公告",
                "text": "公告已屏蔽",
-               "open": false
+               "open": true
               },
   "sharetxt": {
             "myshare": "剧荒？来这！ http://iosapp.tv",
@@ -27,7 +27,7 @@ obj = {"data":{
             "hengfu" : false,
         "xiazaijili" : false,
         "bofangjili" : false,
-            "adtime" : 24
+            "adtime" : 999999999
                  }
  }
       };
