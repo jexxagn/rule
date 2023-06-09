@@ -2,7 +2,7 @@ let obj = JSON.parse($response.body);
 obj = {
   "gonggao": {
     "title": "公告",
-    "text": "🎃",
+    "text": "",
     "open": false
   },
   "sharetxt": {
