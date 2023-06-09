@@ -1,10 +1,10 @@
 let obj = JSON.parse($response.body);
 obj = {
-  "gonggao": {
+ /* "gonggao": {
     "title": "公告",
     "text": " ",
     "open": false
-  },
+  },*/
   "sharetxt": {
     "myshare": "剧荒？来这！ http://iosapp.tv",
     "playshare": "剧荒？来这！ http://iosapp.tv"
