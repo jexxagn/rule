@@ -1,8 +1,8 @@
 let obj = JSON.parse($response.body);
 obj = {
   "gonggao": {
-    "title": "Keer公告 🎃",
-    "text": "今日服务器被攻击，导致出现了多个广告，我们会在下个版本修复。请放心即便后期增加广告也只是每日1次，仅仅为了吃口饭感谢理解",
+    "title": "公告",
+    "text": "🎃",
     "open": false
   },
   "sharetxt": {
