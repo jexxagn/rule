@@ -1,6 +1,6 @@
 let obj = JSON.parse($response.body);
 obj = {
- /* "gonggao": {
+  "gonggao": {
     "title": "公告",
     "text": " ",
     "open": false
@@ -15,7 +15,7 @@ obj = {
     "url": "https://www.bjjhsyxx.com/lanzou/ke1.5.520.apk|http://iosapp.tv",
     "url1": "https://s3-us-east-1.ossfiles.com/yyyggg/ke1.5.520.apk|http://iosapp.tv",
     "open": "false"
-  },*/
+  },
   "dingding": {
     "open": true,
     "dyurl": "http://www.aliyuncss.top/dynew.json"
