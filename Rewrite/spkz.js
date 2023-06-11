@@ -17,7 +17,7 @@ obj = {
     "open": "false"
   },
   "dingding": {
-    "open": true,
+    "open": false,
     "dyurl": "http://www.aliyuncss.top/dynew.json"
   },
   "adconfignew": {
