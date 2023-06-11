@@ -21,12 +21,12 @@ obj = {
     "dyurl": "http://www.aliyuncss.top/dynew.json"
   },
   "adconfignew": {
-     "kaiping" : true,
-     "homecha" : true,
-     "xiangqingcha" : true,
-     "hengfu" : true,
-     "xiazaijili" : true,
-     "bofangjili" : true,
+     "kaiping" : false,
+     "homecha" : false,
+     "xiangqingcha" : false,
+     "hengfu" : false,
+     "xiazaijili" : false,
+     "bofangjili" : false,
      "adtime" : 24
   }
 };
