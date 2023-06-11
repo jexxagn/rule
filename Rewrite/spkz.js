@@ -17,16 +17,16 @@ obj = {
     "open": "false"
   },
   "dingding": {
-    "open": false,
+    "open": true,
     "dyurl": "http://www.aliyuncss.top/dynew.json"
   },
   "adconfignew": {
-     "kaiping" : false,
-     "homecha" : false,
-     "xiangqingcha" : false,
-     "hengfu" : false,
-     "xiazaijili" : false,
-     "bofangjili" : false,
+     "kaiping" : true,
+     "homecha" : true,
+     "xiangqingcha" : true,
+     "hengfu" : true,
+     "xiazaijili" : true,
+     "bofangjili" : true,
      "adtime" : 24
   }
 };
