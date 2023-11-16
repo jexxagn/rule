@@ -358,8 +358,6 @@ IHOT爱院线,http://zteres.sn.chinamobile.com:6060/000000001000/600000000600003
 北京冬奥纪实,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=ystenlive&Contentid=1000000001000001910&livemode=1&stbId=3
 纪实人文,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=ystenlive&Contentid=1000000001000010606&livemode=1&stbId=3
 纪实人文,http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=ystenlive&Contentid=1000000001000016545&livemode=1&stbId=3
-华语轮播,http://gdctyuncdnct.inter.ptqy.gitv.tv/tslive/l1/c51_lb_114_1080P_t10/5oXHNY85CMV-awVVNp__gkv8fLEetKTczMrRmWtO7gLNNKzP3X0n8BK-unM-w6_TrQWRPfRx37EGf0fT9gW80EccFBHWp73lo8SXxA_bZu2BxqdZ49JSjVdh_osnBzhipawG-v0ngis-SglhpXn9pCGaDfiarM_ajS7Dr-o3gPWCfMl1JUYxMhXXnqfrYTeSFWSz9N2i4j7pQaWAxyIXN8Pz_o7isxU_4UqBrhwVJbahiZkmhRd1Fbg2AP_uyFugTRNvtL38QaCn9u2iw91ZRQ/17d4e3ddd1bf012dd312d04a3dd372c52/c51_lb_114_1080P_t10.m3u8?key=0fd320ecf4dd91c42cab5f837938bf456&dis_t=1675659864&z=gdctyun_ct&pv=0.2
-豆瓣轮播,http://gdctyuncdnct.inter.ptqy.gitv.tv/tslive/l1/c51_lb_112_1080P_t10/ejaKi6hgecoS8qnbMRLc3GLef2sC3JxWk5pdTCNl56ajxvaCY56HnqeWtoUxTuVn0hSH03dBgj6yqRlnZckjUCid2gElndQECT2mvyhdQIENCNHdDQTVR2SWSIObw5Ux-ES-sfEYNsXrT2gPRGNZLvH_gPveccodE7KdzPoBw08cYq1qpFxIk9V3J1s_UR1Q0H3dj-kUL_4_o096ygfhtu4Pxbda4vRBVEwov2ioFZ9tPUTqc1gjG2y7CMi-RsQgCCp6eF6GTwo-8WkFBgQvFw/18e977f10da6c14a23bf8eca403e5a862/c51_lb_112_1080P_t10.m3u8?key=0fd320ecf4dd91c42153d1c126098ba94&dis_t=1675659335&z=gdctyun_ct&pv=0.2
 黑莓动画,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 黑莓电影,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
 浙江少儿,http://hw-m-l.cztv.com/channels/lantian/channel08/1080p.m3u8?k=1a7559a51eeb880b021619a07f463ac4&t=1577153787
